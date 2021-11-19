@@ -4,8 +4,8 @@ public class Product {
     private int id;
     private String name;
     private String image;
-    private Integer oldPrice;
-    private Integer price;
+    private float oldPrice;
+    private float price;
     private String description;
     private Installment installment;
 
@@ -33,19 +33,19 @@ public class Product {
         this.image = image;
     }
 
-    public Integer getOldPrice() {
+    public float getOldPrice() {
         return oldPrice;
     }
 
-    public void setOldPrice(Integer oldPrice) {
+    public void setOldPrice(float oldPrice) {
         this.oldPrice = oldPrice;
     }
 
-    public Integer getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(Integer price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 

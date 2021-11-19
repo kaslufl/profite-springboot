@@ -2,9 +2,9 @@ package pers.kaslufl.profite.model.entity;
 
 public class Installment {
     private int count;
-    private int value;
+    private float value;
 
-    public Installment(int price) {
+    public Installment(int count, float price) {
         this.count = 10;
         this.value = price/count;
     }
@@ -17,11 +17,11 @@ public class Installment {
         this.count = count;
     }
 
-    public int getValue() {
+    public float getValue() {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(float value) {
         this.value = value;
     }
 
